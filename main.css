@@ -1,0 +1,111 @@
+
+body {
+  font-family: cursive, sans-serif;
+  background-image: url(001.jpg);
+  background-size: cover;
+  background-clip: border-box;
+
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 0px;
+  text-align: center;
+  color: snow;
+  
+
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+  color: Lavender;
+  font-size: 1.4em
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:Aqua;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: static;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
+h1 {
+  font-size:2em;
+  color: DarkBlue;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+  color: DarkBlue;
+  text-decoration-lin
+}
+
+h3 {
+  font-size: 2em;
+  color: DarkBlue;
+  font-family: cursive ;
+  font-stretch: ultra-condensed;
+  margin: 40px;
+  font-weight: 900;
+}
+
+h4 {
+  font-size:1.5em;
+  color: Lavender;
+  text-decoration-line: ;
+
+}
+
+h5 {
+  font-size: 2em;
+  color: DarkBlue;
+  font-family: cursive ;
+  font-stretch: ultra-condensed;
+  margin: 40px;
+  font-weight: 900;
+}
+
+button,
+input {
+  overflow: visible;
+  margin: 60px;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: cursive, sans-serif;
+  font-weight: 900;
+  background-color: transparent;
+  border-color: transparent;
+  color: snow;
+}
+
+button:hover {
+  color: LimeGreen;
+}
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 80px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 4px solid LimeGreen;
+}
