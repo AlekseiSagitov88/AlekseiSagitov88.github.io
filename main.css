@@ -44,7 +44,7 @@ a::after {
 
 h1 {
   font-size:2em;
-  color: DarkBlue;
+  color: Lavender;
 }
 
 h2 {
@@ -56,7 +56,7 @@ h2 {
 
 h3 {
   font-size: 2em;
-  color: DarkBlue;
+  color: Lavender;
   font-family: cursive ;
   font-stretch: ultra-condensed;
   margin: 40px;
@@ -72,7 +72,7 @@ h4 {
 
 h5 {
   font-size: 2em;
-  color: DarkBlue;
+  color: Lavender;
   font-family: cursive ;
   font-stretch: ultra-condensed;
   margin: 40px;
